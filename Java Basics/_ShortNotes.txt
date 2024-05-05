@@ -1,0 +1,71 @@
+STRINGS
+String str1=sc.nextLine() to take input 
+str1.length() to take the length of the String 
+str.equals(str2) to check whether str1 and str2 are equal or not
+str.charAt(i) to take character at i
+str.compareTo(str2) to compare str1 and str 2
+str1.compareToIgnoreCase(str2) to compare str1 and str 2 ignoring cases
+     if str1 > str2, it returns value > 0
+     if str1 = str2, it returns value = 0
+     if str1 < str2, it returns value < 0
+a.toString convert any datatype  'a' to string
+Character.toUpperCase(anychar) toconvert that letter to upper case
+Character.toLowerCase(anychar) toconvert that letter to lower case
+
+
+STRINGBUILDER
+StringBuilder sb=new StringBuilder("content") to create StringBuilder
+sb.append("x") to add x at the end of sb
+All the other instructions are same as that of String
+
+
+BIT MANIPULATION 
+Left shift : a << b
+             new number = a * 2^b
+             eg; 5 << 2
+                 new number= 5 * 2^2
+                             5 * 4 = 20;
+Right shift : a >> b
+             new number = a / 2^b
+             eg; 6 >> 1
+                 new number= 6 / 2^1
+                             6 / 2 = 3; 
+
+RECURSION
+The patter of the recursion code follows : 
+Base case
+Kaam
+f(n-1) inner function call       
+
+ARRAYLIST
+ArrayList<datatype class> name=new ArrayList<>(); to create an array list
+name.add(value); to add a value at the last index of the ArrayList can also use name.add(index,value) but note that adding an element to an index will delete the previous value if present
+name.get(index); to get the element at that index
+name.remove(index); to delete an element'
+name.set(index,value); to insert an element at that index
+name.contain(value); to check thst if a value is present in a arraylist or not, return type is boolean
+name.size(); to get the size of the ArrayList
+Collections.sort(name); to sort an arraylist in accending
+Collections.sort(name,Collections.reverseOrder()); to sort an arraylist in decending order
+
+STACK
+Stack can be created using array,arrayList,linkedList
+Shortcut : it can also be created using java collection framework
+Stack<dataType> name = new Stack<>(); to create stack using java collection framework
+name.push(data); to add element at the top
+name.pop(); to remove data at the top
+name.peek(); to get data the top
+         
+HASHMAP
+Hashmap<key,value>name=new Hashmap<>(); to create a Hashmap
+hm.put(key,value); to add an element in the Hashmap
+System.out.print(hm); to print the whole Hashmap
+hm.get(key); to get the value of a provided (if key does not exist it will return null)
+hm.containsKey(key); to check if a provided key exists in the Hashmapor not
+hm.remove(key); to delete a provided key(along with its value) from the Hashmap
+hm.size(); to get size of the Hashmap
+hm.isEmpty(); to check if Hashmap is empty or not
+hm.clear(); to clear a Hashmap
+hm.keySet(); constructor function to create a set of keys which are there in a hashmap
+
+
